@@ -9,7 +9,15 @@
 
     <!-- Favicon -->
     <link href="img/favicon.ico" rel="icon" />
-
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <!-- Add wow CSS for animation -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -35,10 +43,8 @@
       href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css"
       rel="stylesheet"
     />
-
     <!-- Customized Bootstrap Stylesheet -->
     <link href="css/bootstrap.min.css" rel="stylesheet" />
-
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet" />
   </head>
@@ -59,62 +65,12 @@
     </div>
     <!-- Spinner End -->
 
-    <!-- Topbar Start -->
-    <div class="container-fluid bg-dark px-5 d-none d-lg-block">
-      <div class="row gx-0">
-        <div class="col-lg-8 text-center text-lg-start mb-2 mb-lg-0">
-          <div class="d-inline-flex align-items-center" style="height: 45px">
-            <small class="me-3 text-light"
-              ><i class="fa fa-map-marker-alt me-2"></i>Bole Biselex building
-              1st floor next to Skylight hotel
-            </small>
-            <small class="me-3 text-light"
-              ><i class="fa fa-phone-alt me-2"></i>+251 967-42-7810</small
-            >
-            <small class="text-light"
-              ><i class="fa fa-envelope-open me-2"></i>saa9904@gmail.com</small
-            >
-          </div>
-        </div>
-        <div class="col-lg-4 text-center text-lg-end">
-          <div class="d-inline-flex align-items-center" style="height: 45px">
-            <a
-              class="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2"
-              href=""
-              ><i class="fab fa-twitter fw-normal"></i
-            ></a>
-            <a
-              class="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2"
-              href=""
-              ><i class="fab fa-facebook-f fw-normal"></i
-            ></a>
-            <a
-              class="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2"
-              href=""
-              ><i class="fab fa-linkedin-in fw-normal"></i
-            ></a>
-            <a
-              class="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2"
-              href=""
-              ><i class="fab fa-instagram fw-normal"></i
-            ></a>
-            <a
-              class="btn btn-sm btn-outline-light btn-sm-square rounded-circle"
-              href=""
-              ><i class="fab fa-youtube fw-normal"></i
-            ></a>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- Topbar End -->
-
     <!-- Navbar & Hero Start -->
     <div class="container-fluid position-relative p-0">
       <nav
         class="navbar navbar-expand-lg navbar-light px-4 px-lg-5 py-3 py-lg-0"
       >
-        <a href="" class="navbar-brand p-0">
+        <a href="index.html" class="navbar-brand p-0">
           <h1 class="text-primary m-0">SAA</h1>
         </a>
         <button
@@ -129,26 +85,17 @@
           <div class="navbar-nav ms-auto py-0">
             <a href="index.html" class="nav-item nav-link">Home</a>
             <a href="about.html" class="nav-item nav-link active">About</a>
+            <a href="contact.html" class="nav-item nav-link">Contact</a>
           </div>
-          <!-- <a href="" class="btn btn-primary rounded-pill py-2 px-4"></a> -->
         </div>
       </nav>
-
       <div class="container-fluid bg-primary py-5 mb-5 hero-header">
         <div class="container py-5">
           <div class="row justify-content-center py-5">
             <div class="col-lg-10 pt-lg-5 mt-lg-5 text-center">
-              <h1 class="display-3 text-white animated slideInDown"></h1>
-              <nav aria-label="breadcrumb">
-                <ol class="breadcrumb justify-content-center">
-                  <li class="breadcrumb-item"><a href="#"></a></li>
-                  <li class="breadcrumb-item"><a href="#"></a></li>
-                  <li
-                    class="breadcrumb-item text-white active"
-                    aria-current="page"
-                  ></li>
-                </ol>
-              </nav>
+              <h1 class="display-3 text-white animated slideInDown">
+                ASSOCIATION OF SUCCESS IN ACTION
+              </h1>
             </div>
           </div>
         </div>
@@ -221,80 +168,95 @@
           </p>
         </div>
       </div>
+
+      <!-- Image  -->
+      <div class="container text-center">
+        <img src="img/Bekiru Photo-modified.png" alt="" class="img-fluid" />
+        <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+          <h3 class="section-title bg-white text-center text-primary px-3">
+            Executive Director
+          </h3>
+          <h4 class="mb-5">Mr. Bekeru Furi</h4>
+        </div>
+      </div>
+      <!-- /Image -->
+
+      <br />
+
       <!-- Team Start -->
       <div class="container-xxl py-5">
         <div class="container">
           <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
-            <h6 class="section-title bg-white text-center text-primary px-3">
+            <h6 class="section-title bg-white text-primary px-3 py-2 rounded">
               Organizational Overview
             </h6>
-            <h1 class="mb-5">Executive Summary</h1>
+            <h1 class="mt-4 mb-5">Executive Summary</h1>
           </div>
 
-          <div class="row g-4">
+          <div class="container-xxl mt-5 row">
             <div
-              class="card col-lg-3 col-md-6 card shadow rounded-pill mx-auto px-5"
-              data-wow-delay="0.1s"
-              style="width: 28rem"
+              class="card col-lg-3 col-md-6 mb-4 card shadow rounded-pill mx-auto px-4 wow fadeInUp"
+              data-wow-delay="0.2s"
+              style="width: 22rem"
             >
-              <div class="card-body">
-                <h5 class="card-title">Vision</h5>
+              <div class="card-body p-4">
+                <h5 class="card-title text-primary">Vision</h5>
                 <p class="card-text">
-                  See Ethiopian youth turned down from poverty, backwardness,
-                  and all other social injustices and miseries and remain it
-                  with pages of history.
+                  See Ethiopian youth rise above poverty, backwardness, and
+                  social injustices, leaving a lasting mark in history.
                 </p>
               </div>
             </div>
             <div
-              class="card col-lg-3 col-md-6 card shadow rounded-pill mx-auto px-5"
-              data-wow-delay="0.1s"
-              style="width: 28rem"
+              class="card col-lg-3 col-md-6 mb-4 card shadow rounded-pill mx-auto px-4 wow fadeInUp"
+              data-wow-delay="0.3s"
+              style="width: 22rem"
             >
-              <div class="card-body">
-                <h5 class="card-title">Mission</h5>
+              <div class="card-body p-4">
+                <h5 class="card-title text-primary">Mission</h5>
                 <p class="card-text">
-                  Create conducive working opportunities by raising awareness,
-                  and improving understanding, To raise awareness improve
-                  knowledge and understanding of poor youth of Ethiopia about
-                  harmful practices & small-scale businesses in order to tackle
-                  poverty.
+                  To create opportunities by raising awareness and improving the
+                  knowledge and understanding of poor Ethiopian youth, tackling
+                  poverty and harmful practices.
                 </p>
               </div>
             </div>
             <div
-              class="card col-lg-3 col-md-6 card shadow rounded-pill mx-auto px-5"
-              data-wow-delay="0.1s"
-              style="width: 28rem"
+              class="card col-lg-3 col-md-6 mb-4 card shadow rounded-pill mx-auto px-4 wow fadeInUp"
+              data-wow-delay="0.4s"
+              style="width: 22rem"
             >
-              <div class="card-body">
-                <h5 class="card-title">Purpose</h5>
+              <div class="card-body p-4">
+                <h5 class="card-title text-primary">Purpose</h5>
                 <p class="card-text">
-                  The requested fund is intended to render marketable vocational
-                  skill training in Ethiopia To equip poor women to become
-                  economically productive & self-Supportive in a sustainable
-                  manner in the mentioned country.
+                  To provide marketable vocational skill training in Ethiopia,
+                  equipping poor women to become economically productive and
+                  self-supportive sustainably.
                 </p>
               </div>
             </div>
             <div
-              class="card col-lg-3 col-md-6 card shadow rounded-pill mx-auto px-5"
-              data-wow-delay="0.1s"
-              style="width: 28rem"
+              class="card col-lg-3 col-md-6 mb-4 card shadow rounded-pill mx-auto px-4 wow fadeInUp"
+              data-wow-delay="0.5s"
+              style="width: 22rem"
             >
-              <div class="card-body">
-                <h5 class="card-title">Target Population</h5>
+              <div class="card-body p-4">
+                <h5 class="card-title text-primary">Target Population</h5>
                 <p class="card-text">
-                  Arranged for humanitarian, rehabilitation youth who recently
-                  organized in micro-business, but were not able to start
-                  production (work) due to lack of financial support.
+                  For humanitarian rehabilitation of youth who recently
+                  organized micro-businesses but lack financial support to start
+                  production.
                 </p>
               </div>
             </div>
-            <div class="card col-lg-3 col-md-6 card shadow rounded-pill mx-auto
-            px-lg-5 data-wow-delay="0.1s" style="width: 28rem" >
-            <div class="card-body">
-              <h5 class="card-title">
+          </div>
+          <div
+            class="card col-lg-6 col-md-8 mx-auto card shadow rounded-pill mx-auto px-4 wow fadeInUp"
+            data-wow-delay="0.6s"
+            style="width: 32rem"
+          >
+            <div class="card-body p-4">
+              <h5 class="card-title text-primary">
                 Organizational Structure and Leadership
               </h5>
               <p class="card-text">
@@ -305,161 +267,200 @@
               </p>
             </div>
           </div>
-          <!-- make this card to expand depending on the text -->
         </div>
-        <div class="container-xxl py-5">
-          <h1>Objectives <span class="text-primary">SAA</span></h1>
-          <div>
-            <ul class="mb-4">
-              <li class="m-3">
-                To expand the environmental protection, development
-                land-rehabilitation programs to enhance employment and better
-                future of the host, refugees and IDP communiqués
-              </li>
-              <li class="m-3">
-                To introduce an inclusive livelihood development schemes to
-                specifically benefit the of vulnerable groups of the community .
-              </li>
-              <li class="m-3">
-                To create safe access to alternative source of energy and energy
-                for cooking, lighting and productive use
-              </li>
-              <li class="m-3">
-                To engage in energy and energy efficiency and reforestation
-                programs with the objective to carbon emission reduction and
-                climate change
-              </li>
-              <li class="m-3">
-                To enhance an integrated life-saving and resilience building,
-                Emergency Response, disaster risk preparedness, community
-                empowerment, governance/social accountability, gender and gender
-                in equality plans/programs for the host, refugees IDPs and the
-                vulnerable groups
-              </li>
-              <li class="m-3">
-                To provide access to clean and potable water, Water Sanitation
-                and Hygiene (WASH), Energy, Shelter and NFI, health and
-                education services, etc.
-              </li>
-              <li class="m-3">
-                To increase household income and economic activities through
-                on-farm as well off-farm economic/income sources programs.
-              </li>
-              <li class="m-3">
-                To create knowledge transfer and skill development platforms for
-                the community to assist it exercise its decision-making rights
-                in development as well in asking/keeping its rights and
-                responsibilities
-              </li>
-              <li class="m-3">
-                To enhance capacities, skills and preparedness of the community
-                to withstand and manage drought & disaster risks
-              </li>
-            </ul>
+
+        <!-- make this card to expand depending on the text -->
+      </div>
+      <div class="container py-5">
+        <!-- Objectives Section -->
+        <section>
+          <h1 class="text-center mb-5">
+            Objectives <span class="text-primary">SAA</span>
+          </h1>
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <ul class="list-unstyled">
+                <li class="mb-4">
+                  <h4 class="text-primary">Expand Environmental Protection</h4>
+                  <p>
+                    To expand environmental protection and development
+                    land-rehabilitation programs to enhance employment and
+                    create a better future for host communities, refugees, and
+                    IDPs.
+                  </p>
+                </li>
+                <li class="mb-4">
+                  <h4 class="text-primary">
+                    Introduce Inclusive Livelihood Development Schemes
+                  </h4>
+                  <p>
+                    To introduce inclusive livelihood development schemes
+                    specifically benefiting vulnerable groups in the community.
+                  </p>
+                </li>
+                <li class="mb-4">
+                  <h4 class="text-primary">
+                    Provide Access to Alternative Energy Sources
+                  </h4>
+                  <p>
+                    To create safe access to alternative sources of energy for
+                    cooking, lighting, and productive use.
+                  </p>
+                </li>
+                <li class="mb-4">
+                  <h4 class="text-primary">
+                    Engage in Energy Efficiency and Reforestation
+                  </h4>
+                  <p>
+                    To engage in energy efficiency and reforestation programs
+                    with the objective of carbon emission reduction and
+                    addressing climate change.
+                  </p>
+                </li>
+                <li class="mb-4">
+                  <h4 class="text-primary">
+                    Enhance Resilience Building and Community Empowerment
+                  </h4>
+                  <p>
+                    To enhance integrated life-saving and resilience building,
+                    emergency response, disaster risk preparedness, community
+                    empowerment, governance, social accountability, and gender
+                    equality plans/programs for host communities, refugees,
+                    IDPs, and vulnerable groups.
+                  </p>
+                </li>
+                <li class="mb-4">
+                  <h4 class="text-primary">
+                    Provide Access to Essential Services
+                  </h4>
+                  <p>
+                    To provide access to clean and potable water, water
+                    sanitation and hygiene (WASH), energy, shelter, health, and
+                    education services.
+                  </p>
+                </li>
+                <li class="mb-4">
+                  <h4 class="text-primary">
+                    Increase Household Income and Economic Activities
+                  </h4>
+                  <p>
+                    To increase household income and economic activities through
+                    on-farm and off-farm economic/income sources programs.
+                  </p>
+                </li>
+                <li class="mb-4">
+                  <h4 class="text-primary">
+                    Create Knowledge Transfer and Skill Development Platforms
+                  </h4>
+                  <p>
+                    To create knowledge transfer and skill development platforms
+                    for the community to exercise its decision-making rights in
+                    development and uphold its rights and responsibilities.
+                  </p>
+                </li>
+                <li class="mb-4">
+                  <h4 class="text-primary">
+                    Enhance Community Capacities and Preparedness
+                  </h4>
+                  <p>
+                    To enhance capacities, skills, and preparedness of the
+                    community to withstand and manage drought and disaster
+                    risks.
+                  </p>
+                </li>
+              </ul>
+            </div>
           </div>
-        </div>
+        </section>
+
+        <!-- Core Values Section -->
+        <section class="mt-5">
+          <h1 class="text-center mb-5">
+            Core Values <span class="text-primary">SAA</span>
+          </h1>
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <ul class="list-unstyled">
+                <li class="mb-4">
+                  <h4 class="text-primary">Sustainability</h4>
+                  <p>
+                    We enable communities to own each project to ensure its
+                    sustainability.
+                  </p>
+                </li>
+                <li class="mb-4">
+                  <h4 class="text-primary">Trust</h4>
+                  <p>Ensuring transparency at all levels of our work.</p>
+                </li>
+                <li class="mb-4">
+                  <h4 class="text-primary">Proficiency</h4>
+                  <p>Providing creative expertise and strong commitment.</p>
+                </li>
+                <li class="mb-4">
+                  <h4 class="text-primary">Solidarity</h4>
+                  <p>
+                    Harmony within our charity organization and with the people
+                    we aim to support.
+                  </p>
+                </li>
+                <li class="mb-4">
+                  <h4 class="text-primary">Justice</h4>
+                  <p>
+                    Fairness within our charity organization as well as in
+                    society.
+                  </p>
+                </li>
+                <li class="mb-4">
+                  <h4 class="text-primary">Integrity</h4>
+                  <p>To act according to the values we wish to promote.</p>
+                </li>
+                <li class="mb-4">
+                  <h4 class="text-primary">Flexibility</h4>
+                  <p>Showing our willingness to change and learn.</p>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
       </div>
-      <div class="container-xxl py-5">
-        <h1>Core Values <span class="text-primary">SAA</span></h1>
-        <div>
-          <ul class="mb-4">
-            <li class="m-3">
-              <h4>Sustainability</h4>
-              We enable communities to own each project to ensure its
-              sustainability
-            </li>
-            <li class="m-3">
-              <h4>Trust</h4>
-              Ensuring transparency at all levels of our work
-            </li>
-            <li class="m-3">
-              <h4>Proficiency</h4>
-              Providing creative expertise and strong commitment
-            </li>
-            <li class="m-3">
-              <h4>Solidarity</h4>
-              harmony within our charity organization and with the people we aim
-              to support
-            </li>
-            <li class="m-3">
-              <h4>Justice</h4>
-              fairness within our charity organization as well as in society
-            </li>
-            <li class="m-3">
-              <h4>Integrity</h4>
-              to act according to the values we wish to promote.
-            </li>
-            <li class="m-3">
-              <h4>Flexibility</h4>
-              Showing our willingness to change and learn
-            </li>
-          </ul>
-        </div>
-      </div>
-      <!-- Image  -->
-      <div class="container text-center">
-        <img src="img/Bekiru Photo-modified.png" alt="" class="img-fluid" />
-        <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
-          <h3 class="section-title bg-white text-center text-primary px-3">
-            Executive Director
-          </h3>
-          <h4 class="mb-5">Mr. Biruk T.</h4>
-        </div>
-      </div>
-      <!-- /Image -->
-      <!-- Team End -->
-      <!-- Footer Start -->
     </div>
+    <!-- About End -->
+
+    <!-- Footer Start -->
     <div
       class="bg-dark text-light footer pt-5 wow fadeIn"
       data-wow-delay="0.1s"
     >
-      <div class="container py-5">
-        <div class="row g-5">
-          <div class="col-lg">
-            <h4 class="text-white mb-3">Company</h4>
-            <a class="btn btn-link" href="">About Us</a>
-            <a class="btn btn-link" href="">Contact Us</a>
-            <a class="btn btn-link" href="">Privacy Policy</a>
-            <a class="btn btn-link" href="">Terms & Condition</a>
-            <a class="btn btn-link" href="">FAQs & Help</a>
-          </div>
+      <div class="px-lg-5">
+        <div class="row">
           <div class="col-lg">
             <h4 class="text-white mb-3">Contact</h4>
-            <p class="mb-2">
-              <i class="fa fa-map-marker-alt me-3"></i>Bole Biselex building 1st
-              floor next to Skylight hotel
+            <p>
+              <i class="fa fa-map-marker-alt me-2"></i>
+              Bole Biselex building 1st floor next to Skylight hotel
             </p>
-            <p class="mb-2">
-              <i class="fa fa-phone-alt me-3"></i>+251 967427810
+            <p>
+              <i class="fa fa-phone-alt me-2"></i>
+              +251 95-541-6262 / +251 93-200-8521
             </p>
-            <p class="mb-2">
-              <i class="fa fa-envelope me-3"></i>saa9904@gmail.com
+            <p>
+              <i class="fa fa-envelope me-2"></i>
+              bekerufuri1@gmail.com
             </p>
-            <div class="d-flex pt-2">
-              <a class="btn btn-outline-light btn-social" href=""
-                ><i class="fab fa-twitter"></i
-              ></a>
-              <a class="btn btn-outline-light btn-social" href=""
-                ><i class="fab fa-facebook-f"></i
-              ></a>
-              <a class="btn btn-outline-light btn-social" href=""
-                ><i class="fab fa-youtube"></i
-              ></a>
-              <a class="btn btn-outline-light btn-social" href=""
-                ><i class="fab fa-linkedin-in"></i
-              ></a>
-            </div>
+            <p>
+              <strong>Contact Person:</strong>
+              <span id="personName">Bekeru Furi Gocholo</span>
+            </p>
           </div>
         </div>
       </div>
-      <div class="">
+      <div class="text-center">
         <div class="copyright">
           <div class="row">
-            <div class="col text-center text-md-start mb-3 mb-md-0">
+            <div class="col">
               &copy;
-              <a class="border-bottom">
-                Designed by Eskider Meki. All Right Reserved 2023.
+              <a class="border-bottom" href="#">
+                Designed by Eskider Meki. All Rights Reserved 2023.
               </a>
             </div>
           </div>
